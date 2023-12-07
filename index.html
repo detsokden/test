@@ -6,14 +6,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
+  <div id="header" class="container">
         <div class="headerlogo">
             <a href="index.html">
                 <img src="Image\onederz-logo.jpg" alt="" class="logotopheader">
             </a>
         </div>
-    </header>
     <div class="menu_icon_box">
         <div class="line1" id="iconmenu"></div>
         <div class="line2" id="iconmenu"></div>
@@ -29,7 +27,8 @@
         </ul>
     </nav>
     </div>
-    <div class="main_content">
+</div>
+<div  id="main">
         <table class="center">
           <tr>
             <td><a href="#"><img src="Image\Bus Tickets.png" alt="bus" class="topmenuleft"></a></td>
@@ -40,7 +39,10 @@
             <td><a href="#"><img src="Image\temple-city-maps.png" alt="bus" class="topmenuright2"></a></td>
           </tr>
         </table>
-    </div>
+</div>
+    <div id="footer">
+            <p>Booking at the reception</p>
+  </div>
 </body>
 <script>
     let menu_icon_box = document.querySelector(".menu_icon_box");
@@ -51,3 +53,4 @@
     }
 </script>
 </html>
+
